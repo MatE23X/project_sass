@@ -1,0 +1,22 @@
+  /* Floated Columns ------------------ */
+  
+  .resorts,
+  .tips {
+    width: 46.5%;
+  }
+  
+  .tips {
+    float: left;
+  }
+  
+  .resorts {
+    float: right;
+  }
+  
+  /* Float Clearfix ------------------ */
+  
+  .group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
